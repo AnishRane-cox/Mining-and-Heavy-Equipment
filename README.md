@@ -311,9 +311,9 @@ Although this project uses purely data-driven ML models, several features align 
 
 Fuel consumption in haul trucks is primarily influenced by:
 
-[
+$$[
 P = F \cdot v
-]
+]$$
 
 Where:
 
@@ -322,9 +322,9 @@ Where:
 
 Grade resistance depends on elevation change:
 
-[
+$$[
 F_{grade} = m g \sin(\theta)
-]
+]$$
 
 The feature **Raise height difference** acts as a proxy for grade angle ( \theta ).
 
@@ -334,9 +334,9 @@ The feature **Raise height difference** acts as a proxy for grade angle ( \theta
 
 Fuel burn scales approximately with engine load:
 
-[
+$$[
 \text{Fuel Rate} \propto \frac{\text{Brake Power}}{\eta_{thermal}}
-]
+]$$
 
 Higher payload → higher required brake power → increased fuel consumption.
 
@@ -358,9 +358,7 @@ Ambient temperature affects:
 
 Wind speed influences aerodynamic drag:
 
-[
-F_d = \frac{1}{2} \rho C_d A v^2
-]
+$$[F_d = \frac{1}{2} \rho C_d A v^2]$$
 
 The inclusion of temperature and wind variables improves seasonal robustness.
 
