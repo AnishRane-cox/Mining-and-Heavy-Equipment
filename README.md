@@ -277,15 +277,7 @@ The evaluation framework was modularized for reproducibility.
 
 ---
 
-## 11. Author
-
-**Anish Nilesh Rane**
-Mechanical Engineer | Machine Learning Engineer
-Specializing in Powertrain Systems, Thermal Modeling & Applied ML
-
----
-
-# 12. Feature Importance & Model Interpretability
+## 11. Feature Importance & Model Interpretability
 
 Understanding *why* the model predicts a certain fuel consumption value is critical for engineering deployment.
 
@@ -311,11 +303,11 @@ This confirms that the model is learning physically meaningful relationships rat
 
 ---
 
-# 13. Physics-Informed Insight
+## 12. Physics-Informed Insight
 
 Although this project uses purely data-driven ML models, several features align with first-principle mechanics:
 
-### 13.1 Tractive Power Relationship
+### 12.1 Tractive Power Relationship
 
 Fuel consumption in haul trucks is primarily influenced by:
 
@@ -338,7 +330,7 @@ The feature **Raise height difference** acts as a proxy for grade angle ( \theta
 
 ---
 
-### 13.2 Load Impact
+### 12.2 Load Impact
 
 Fuel burn scales approximately with engine load:
 
@@ -356,7 +348,7 @@ The model indirectly captures this via:
 
 ---
 
-### 13.3 Seasonal & Environmental Effects
+### 12.3 Seasonal & Environmental Effects
 
 Ambient temperature affects:
 
@@ -374,7 +366,7 @@ The inclusion of temperature and wind variables improves seasonal robustness.
 
 ---
 
-# 14. Model Validation Strategy
+## 13. Model Validation Strategy
 
 To ensure robustness:
 
@@ -394,7 +386,7 @@ The smaller generalization gap in Random Forest indicates better real-world stab
 
 ---
 
-# 15. Business Impact Estimation
+## 14. Business Impact Estimation
 
 Assume:
 
@@ -414,7 +406,7 @@ This demonstrates real financial relevance of accurate modeling.
 
 ---
 
-# 16. Deployment Considerations
+## 15. Deployment Considerations
 
 For production use:
 
@@ -431,7 +423,7 @@ Future scope includes:
 
 ---
 
-# 17. Limitations
+## 16. Limitations
 
 * Small dataset (292 samples)
 * Limited diversity of engine models
@@ -442,7 +434,7 @@ These constraints define next research direction.
 
 ---
 
-# 18. Research Extension Path
+## 17. Research Extension Path
 
 To elevate this into a publishable-grade system:
 
@@ -452,5 +444,13 @@ To elevate this into a publishable-grade system:
 * Use SHAP for explainability
 * Apply time-series cross-validation
 * Expand dataset across multiple mine sites
+
+---
+
+## 18. Author
+
+**Anish Nilesh Rane**
+Mechanical Engineer | Machine Learning Engineer
+Specializing in Powertrain Systems, Thermal Modeling & Applied ML
 
 ---
