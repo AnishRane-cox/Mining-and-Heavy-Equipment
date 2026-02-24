@@ -450,7 +450,9 @@ To elevate this into a publishable-grade system:
 ## 18. Author
 
 **Anish Nilesh Rane**
+
 Mechanical Engineer | Machine Learning Engineer
+
 Specializing in Powertrain Systems, Thermal Modeling & Applied ML
 
 ---
