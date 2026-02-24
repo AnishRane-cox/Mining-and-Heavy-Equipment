@@ -1,0 +1,13 @@
+# Data Manipulation
+pandas
+numpy
+
+# Machine Learning & Pipeline
+scikit-learn
+joblib
+
+# Model Interpretability
+shap
+
+# Optional: For data visualization if you plan to plot SHAP values
+matplotlib

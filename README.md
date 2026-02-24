@@ -256,10 +256,9 @@ The evaluation framework was modularized for reproducibility.
 ├── data/
 ├── notebooks/
 ├── src/
-│   ├── preprocessing.py
+│   ├── pipeline.py
 │   ├── train.py
-│   ├── evaluate.py
-│   └── utils.py
+│   ├── test.py
 ├── models/
 ├── requirements.txt
 └── README.md
@@ -390,9 +389,7 @@ Total annual fuel cost ≈ ₹1.35 billion
 
 Even a **3% prediction-driven optimization improvement** could yield:
 
-[
-₹40+ million annual savings
-]
+$$₹40+ million annual savings$$
 
 This demonstrates real financial relevance of accurate modeling.
 
@@ -438,6 +435,22 @@ To elevate this into a publishable-grade system:
 * Expand dataset across multiple mine sites
 
 ---
+🚀 Getting Started
+Clone the repo:
+
+```Bash
+git clone https://github.com/AnishRane-cox/industrial-fuel-optimizer.git
+```
+
+Install dependencies:
+```Bash
+pip install -r requirements.txt
+```
+
+Train the model:
+```Bash
+python src/train.py
+```
 
 ## 18. Author
 
